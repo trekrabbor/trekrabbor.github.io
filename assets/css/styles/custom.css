@@ -883,7 +883,7 @@ div.magic-block-html .marked-table {
 }
 
 section#hub-content #content-container .nextSteps a {
-  color: var(--side-menu-secondary) !important;
+  color: var(--side-menu-background) !important;
 }
 
 section#hub-content #content-container .nextSteps tr:hover a {
