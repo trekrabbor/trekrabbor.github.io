@@ -1,0 +1,14 @@
+#thumbs {
+    margin-left: 23%; /*Element was center aligned, but did not look to be*/
+}
+
+#thumbs a{
+    text-decoration: none !important;
+    color: inherit !important;
+      -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .4)) !important;
+  filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .4)) !important;
+}
+
+#thumbs .thumbs-cta > a > span{
+    display: none !important;
+}
