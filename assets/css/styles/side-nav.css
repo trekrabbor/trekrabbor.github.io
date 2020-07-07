@@ -20,8 +20,8 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
 nav#hub-sidebar ul a {
   border: 1px solid #fff;
   border-radius: 3px;
-  background-color: var(--sinch-white) !important;
-  color: var(--side-menu-secondary) !important;
+  background-color: #f5f5f6 !important;
+  color: #000000 !important;
   font-weight: 400;
 }
 
