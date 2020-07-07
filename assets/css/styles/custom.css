@@ -157,9 +157,11 @@ section#hub-discuss h1 {
   --dropdown-light: #ebe3ee;
   --table-odd: #eee6f3;
   --side-menu-secondary: #70787e;
+  --side-menu-background: #f5f5f6;
   --side-menu-active: #848b91;
   --text-url-hover: #014669;
   --proj-hyperblue: #0376B0;
+  --text-color-grey: #303c46; 
 }
 
 section#hub-content #content-container section.content-body a,
