@@ -300,7 +300,7 @@ header#hub-header #header-top #header-nav-right li a,
 header#hub-header #header-top #header-nav-right li>span {
   color: var(--sinch-grey);
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding-bottom: 31px
 }
 
