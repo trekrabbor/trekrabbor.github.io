@@ -5,12 +5,12 @@ nav#hub-sidebar ul > li.hub-sidebar-page.subnav-expanded > a {
 
 #hub-sidebar ul a.active > .link-title,
 nav#hub-sidebar ul.subpages > li > a.subpage.active {
-  color: var(--proj-hyperblue) !important;
+  color: var(--sinch-purple) !important;
   font-weight: 400 !important;
 }
 
 #hub-sidebar li {
-  background-color: var(--sinch-white);
+  background-color: #f5f5f6;
 }
 
 #hub-sidebar ul > li.subnav-expanded > a {
@@ -36,7 +36,7 @@ nav#hub-sidebar ul a:hover {
 
 nav#hub-sidebar ul a:hover:not(.active),
 nav#hub-sidebar h3:hover:not(.product-expanded) {
-  color: var(--text-url-hover) !important;
+  color: var(--sinch-purple) !important;
 }
 
 #hub-sidebar-content h3 {
