@@ -10,7 +10,7 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
 }
 
 #hub-sidebar li {
-  background-color: var(--side-menu-background);
+  background-color: #fff;
 }
 
 #hub-sidebar ul > li.subnav-expanded > a {
