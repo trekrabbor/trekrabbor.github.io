@@ -20,7 +20,7 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
 nav#hub-sidebar ul a {
   border: 1px solid var(--side-menu-background);
   border-radius: 3px;
-  background-color: #fff !important;
+  background-color: var(--side-menu-background) !important;
   color: var(--text-color-grey) !important;
   font-weight: 400;
 }
@@ -140,5 +140,5 @@ nav#hub-sidebar ul li.subnav-expanded a > .link-title > span {
   height: 100%;
   width: 0;
   border-radius: 6px;
-  background: #fff;
+  background: var(--side-menu-background);
 }
