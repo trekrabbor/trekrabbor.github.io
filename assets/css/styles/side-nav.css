@@ -1,6 +1,6 @@
 nav#hub-sidebar ul > li.hub-sidebar-page.subnav-expanded > a {
   color: #303c46 !important;
-  background-color: #f5f5f6 !important;
+  background-color: #fff !important;
 }
 
 #hub-sidebar ul a.active > .link-title,
