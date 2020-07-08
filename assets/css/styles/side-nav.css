@@ -89,9 +89,9 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
 
 #hub-sidebar-content h3:hover {
   cursor: pointer;
-  border: 1px solid var(--sinch-grey);
+  border: 1px solid var(--text-color-grey);
   background: #fff;
-  color: var(--sinch-grey);
+  color: var(--text-color-grey);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
