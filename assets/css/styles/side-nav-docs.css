@@ -5,9 +5,14 @@
 }
 
 nav#hub-sidebar ul a {
-    border: 1px solid var(--sinch-yellow);
+    border: 1px solid transparent;
     border-radius: 3px;
     width: inherit !important;
+    background: var(--side-menu-background);
+}
+
+nav#hub-sidebar {
+    background: var(--side-menu-background) !important;
 }
 
 
