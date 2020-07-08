@@ -45,6 +45,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   border: 1px solid var(--side-menu-background);
   padding: 5px 9px 5px 9px !important;
   margin-bottom: 0px !important;
+  text-transform: capitalize;
 }
 
 #hub-sidebar ul a {
