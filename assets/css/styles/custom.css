@@ -1670,7 +1670,7 @@ img {
 }
 
 @media (min-width: 1010px) {
-  #hub-sidebar-parent {
+  html.csspositionsticky #hub-sidebar-parent {
     margin-left: -195px!important;
   }
 }
