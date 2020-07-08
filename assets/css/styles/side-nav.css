@@ -46,6 +46,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   padding: 5px 9px 5px 9px !important;
   margin-bottom: 0px !important;
   text-transform: capitalize;
+  margin-left: 10px;
 }
 
 #hub-sidebar ul a {
@@ -147,4 +148,8 @@ nav#hub-sidebar ul li.subnav-expanded a > .link-title > span {
 
 #hub-sidebar-parent {
   width: 448px;
+}
+
+#hub-sidebar-content {
+
 }

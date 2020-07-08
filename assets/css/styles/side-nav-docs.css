@@ -13,8 +13,3 @@ nav#hub-sidebar ul a {
 nav#hub-sidebar {
     background: var(--side-menu-background) !important;
 }
-
-
-#hub-sidebar-content h3 {
-    margin-left: 10px;
-}
