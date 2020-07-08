@@ -7,6 +7,7 @@ nav#hub-sidebar ul > li.hub-sidebar-page.subnav-expanded > a {
 nav#hub-sidebar ul.subpages > li > a.subpage.active {
   color: var(--sinch-purple) !important;
   font-weight: 400 !important;
+  background: #fff;
 }
 
 #hub-sidebar li {
@@ -28,7 +29,7 @@ nav#hub-sidebar ul a {
 nav#hub-sidebar ul a.active:hover,
 nav#hub-sidebar ul a:hover {
   border: 1px solid var(--sinch-grey);
-  background: var(--side-menu-background);
+  background: var(--sinch-white);
   color: var(--sinch-grey);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -97,7 +98,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
 }
 
 nav#hub-sidebar h3 {
-  color: var(--sinch-grey);
+  color: var(--text-color-grey);
 }
 
 nav#hub-sidebar ul .subpages .subpage {
