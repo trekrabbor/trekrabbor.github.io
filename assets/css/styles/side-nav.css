@@ -143,3 +143,7 @@ nav#hub-sidebar ul li.subnav-expanded a > .link-title > span {
   border-radius: 6px;
   background: var(--side-menu-background);
 }
+
+#hub-sidebar-parent {
+  width: 448px;
+}
