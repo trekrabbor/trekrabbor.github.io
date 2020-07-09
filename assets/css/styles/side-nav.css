@@ -110,7 +110,6 @@ nav#hub-sidebar ul .subpages .subpage {
 
 nav#hub-sidebar .scrollable-parent > .nano > .nano-pane > .nano-slider {
   background: #d3ccd6;
-  left: 25px;
 }
 
 #hub-sidebar-content a.text-overflow.subpage {
@@ -126,7 +125,7 @@ nav#hub-sidebar .scrollable-parent > .nano > .nano-pane > .nano-slider {
 
 .nano > .nano-content {
   width: 245px;
-  left: 25px;
+  left: 25px !important;
 }
 
 nav#hub-sidebar ul.subpages > li > a.subpage {
