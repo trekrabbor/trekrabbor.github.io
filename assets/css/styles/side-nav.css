@@ -123,6 +123,11 @@ nav#hub-sidebar .scrollable-parent > .nano > .nano-pane > .nano-slider {
   width: 2px !important;
 }
 
+.nano > .nano-content {
+  width: 245px;
+  left: 25px;
+}
+
 nav#hub-sidebar ul.subpages > li > a.subpage {
   padding: 5px 10px;
   margin: 0 0 0 20px;
