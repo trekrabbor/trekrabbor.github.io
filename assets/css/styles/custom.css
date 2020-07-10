@@ -1669,4 +1669,9 @@ img {
     
 }
 
+@media (min-width: 100%) {
+  html.csspositionsticky #hub-sidebar-parent {
+    margin-left: 0px !important;
+  }
+}
   
