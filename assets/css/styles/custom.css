@@ -828,7 +828,7 @@ div.magic-block-html .marked-table {
 }
 
 .hub-container, .container {
-  max-width: 1920px;
+  min-width: 100%;
 }
 
 .marked-table tbody tr:nth-child(2n+1) {
@@ -1669,7 +1669,7 @@ img {
     
 }
 
-@media (min-width: 100%) {
+@media (min-width: 1010px) {
   html.csspositionsticky #hub-sidebar-parent {
     margin-left: 0px!important;
   }
