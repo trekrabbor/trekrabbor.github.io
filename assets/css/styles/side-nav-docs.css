@@ -12,4 +12,5 @@ nav#hub-sidebar ul a {
 
 nav#hub-sidebar {
     background: var(--side-menu-background) !important;
+    font-size: 14px !important;
 }
