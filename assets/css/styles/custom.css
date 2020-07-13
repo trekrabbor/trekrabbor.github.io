@@ -414,6 +414,10 @@ section#hub-content header h1 {
   color: var(--docs-textarea)
 }
 
+#hub-subheader {
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+
 #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs .dropdown.open a.dropdown-toggle,
 #hub-subheader-parent #hub-subheader .hub-subheader-breadcrumbs a.dropdown-toggle:hover {
   background-color: #ebe3ee

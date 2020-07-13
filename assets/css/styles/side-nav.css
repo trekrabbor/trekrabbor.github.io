@@ -91,6 +91,10 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   padding-right: 1px;
 }
 
+.fa-chevron-down:before {
+  content: "\f0dd";
+}
+
 #hub-sidebar-content ul > li.subnav-expanded > a > .fa {
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
