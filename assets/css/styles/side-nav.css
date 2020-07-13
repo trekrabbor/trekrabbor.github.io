@@ -69,6 +69,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   margin-left: auto;
   padding-left: 0px;
   padding-right: 0px;
+  font-size: 14px;
 }
 
 #hub-sidebar-content h3 .fa-chevron-down {
@@ -80,6 +81,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   padding: 2px;
   opacity: 0.7;
   float: right;
+  color: transparent;
 }
 
 #hub-sidebar-content li > a span.fa-chevron-down {
@@ -90,6 +92,7 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
 
 .fa-chevron-down:before {
   content: "\f0dd";
+  font-size: 14px;
 }
 
 #hub-sidebar-content ul > li.subnav-expanded > a > .fa {
