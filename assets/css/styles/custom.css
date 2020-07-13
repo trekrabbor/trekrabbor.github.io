@@ -646,10 +646,14 @@ footer .row:first-child {
 
 section#hub-content {
   margin: 0 auto;
-  background: linear-gradient(90deg, white 75%, rgb(245, 245, 246) 25%);
   height: 100%;
 }
 
+@media (min-width: 1030px) {
+  section#hub-content {
+    background: linear-gradient(90deg, white 75%, rgb(245, 245, 246) 25%);
+  }
+}
 
 
 @media (max-width:1023px) {
