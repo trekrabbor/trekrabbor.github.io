@@ -16,6 +16,7 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
 
 #hub-sidebar ul > li.subnav-expanded > a {
   font-weight: 400;
+  font-size: 14px !important;
 }
 
 nav#hub-sidebar ul a {
@@ -48,6 +49,8 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   margin-bottom: 0px !important;
   text-transform: capitalize;
   margin-left: 10px;
+  font-size: 14px !important;
+  font-weight: 700;
 }
 
 #hub-sidebar ul a {
