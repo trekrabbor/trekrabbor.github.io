@@ -387,6 +387,13 @@ section#hub-content header .excerpt p {
   color: var(--docs-description)
 }
 
+section#hub-content header .excerpt {
+  margin-top: 37px;
+  margin-bottom: 23px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .content-body .magic-block-api-header ol,
 .content-body .magic-block-api-header ul,
 .content-body .magic-block-textarea ol,
@@ -404,7 +411,8 @@ section#hub-content header h2 {
 }
 
 section#hub-content header h1 {
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 48px;
 }
 
 .content-body .magic-block-api-header h2,
