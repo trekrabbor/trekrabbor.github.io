@@ -172,7 +172,7 @@ nav#hub-sidebar ul li.subnav-expanded a > .link-title > span {
 }
 
 /* SMS Icon */
-#hub-sidebar-content .ng-scope h3::before {
+#hub-sidebar-content #h3 .product-expanded::before {
   content: url('https://sinch.github.io/docs/images/landing/icon-s-mms.svg');
   padding-right: 8px;
 }
