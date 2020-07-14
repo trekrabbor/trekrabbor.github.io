@@ -16,7 +16,7 @@
 }
 
 section#hub-content #content-container section.content-toc .tocHeader {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 section#hub-content #content-container section.content-toc a {
