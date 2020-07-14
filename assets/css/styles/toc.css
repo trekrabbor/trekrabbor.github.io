@@ -15,8 +15,13 @@
   transition: all .3s ease-in
 }
 
+section#hub-content #content-container section.content-toc .tocHeader {
+  font-size: 14px;
+}
+
 section#hub-content #content-container section.content-toc a {
   color: #4c555a;
+  font-size: 14px !important;
 }
 
 .toc-list li.is-active-li > a{
