@@ -1430,6 +1430,11 @@ div[ng-show*="reference"] .hub-sidebar-category > h3.product-expanded > span{
             transform: rotate(-180deg);
 }
 
+.field-description>:first-child, .markdown-body>:first-child {
+  font-size: 32px;
+  font-weight: 900;
+}
+
 /* Fonts */
 #api-explorer .hub-reference-left .label>.label-type {
     font-size: 13px;
@@ -1648,6 +1653,12 @@ display:block;
 min-width: 100%;
 text-align: center;
 }
+
+.heading.heading .heading-text{
+  font-size: 32px;
+  font-weight: 900;
+}
+
 /*End API Explorer*/
 .markdown-body>img ,
 img {
