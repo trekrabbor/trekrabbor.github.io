@@ -1435,6 +1435,11 @@ div[ng-show*="reference"] .hub-sidebar-category > h3.product-expanded > span{
   font-weight: 900;
 }
 
+.field-description h3, .markdown-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 /* Fonts */
 #api-explorer .hub-reference-left .label>.label-type {
     font-size: 13px;
