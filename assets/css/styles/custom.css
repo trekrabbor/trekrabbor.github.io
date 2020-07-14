@@ -1659,10 +1659,6 @@ min-width: 100%;
 text-align: center;
 }
 
-.heading.heading .heading-text{
-  font-size: 32px;
-  font-weight: 900;
-}
 
 /*End API Explorer*/
 .markdown-body>img ,
