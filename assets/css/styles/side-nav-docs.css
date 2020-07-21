@@ -1,7 +1,7 @@
 /*Specifically applied in the side nav in the docs section*/
 #hub-sidebar-content > div > ul {
     width: 100%;
-    margin: 0 0 0 -13px;
+    margin: 0;
 }
 
 

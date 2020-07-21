@@ -30,7 +30,8 @@ nav#hub-sidebar ul a {
   color: var(--sinch-grey) !important;
   font-weight: 400;
   width: inherit !important;
-  padding: 10px 16px;
+  padding: 10px 14px;
+  max-width: 100%;
 }
 
 nav#hub-sidebar ul a.active:hover,
