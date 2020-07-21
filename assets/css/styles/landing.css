@@ -29,7 +29,7 @@
   font-size: 16px !important;
   line-height: 24px;
   color: #3C4852 !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-align: center;
 }
 
@@ -42,10 +42,10 @@
 /* Description text */
 .hub-is-home #hub-landing-top .hub-landing-description p {
   color: #333F48 !important;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 48px;
+  line-height: 1.167em;
   text-align: center;
-  font-weight: 800;
+  font-weight: 900;
   margin-top: 16px;
   margin-bottom: 48px;
 }
@@ -126,10 +126,16 @@
   border: 1px solid rgba(51, 63, 72, 1) !important;
 }
 
+.hub-is-home #hub-search .searchbox.full .fa.fa-search {
+  font-size: 1.1em;
+}
+
 .hub-is-home #hub-search .searchbox {
   left: 0;
   right: unset;
   top: 5px;
+  color: #BFC2C6;
+  font-size: 1.07em;
 }
 .hub-is-home #hub-search input {
   border-bottom: none !important;
@@ -157,7 +163,7 @@
 /* Box */
 .hub-is-home .feature-box {
   background-color : rgb(255, 255, 255);
-  border-radius : 10px;
+  border-radius : 8px;
   box-shadow : rgba(149, 149, 149, 0.25) 0px 5px 15px 0px;
   padding : 50px 24px 0;
   height : 100%;
@@ -179,17 +185,17 @@
 }
 
 .hub-is-home .feature-title {
-  color : rgb(56, 66, 72);
-  font-weight : 600;
+  color : var(--sinch-grey);
+  font-weight : 700;
   font-size : 20px;
-  line-height: 28px;
+  line-height: 1.6em;
   width : 100%;
   margin-bottom : 16px;
   text-align: center;
 }
 
 .hub-is-home .feature-description {
-  color : rgb(102, 114, 131);
+  color : #57666E;
   font-weight : 400;
   font-size : 14px;
   margin-bottom : 40px;
@@ -199,22 +205,22 @@
 }
 
 .hub-is-home .cta-button {
-  color: #323e47;
+  color: var(--sinch-grey);
   padding: 15px 24px;
-  background: #fec656;
-  border: 2px solid #fec656;
+  background: #F9C53B;
+  border: 2px solid #F9C53B;
   display: block;
   line-height: 1;
   text-decoration: none;
   border-radius: 4px;
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 1.23px;
   text-align: center;
   text-transform: uppercase;
   transition: all .2s ease-in-out;
-  width: 250px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -229,7 +235,8 @@
   text-decoration: underline;
   color: #42515D;
   font-size: 14px;
-  font-weight: 500
+  font-weight: 500;
+  line-height: 1.429em;
 }
 /* Icons */
 .hub-is-home h3.main_color {
@@ -237,6 +244,8 @@
   border-bottom: none !important;
   margin-top: 24px !important;
   padding-bottom: 0;
+  font-size: 1.07em;
+  font-weight: 700;
 }
 
 /* SMS Icon */
@@ -298,7 +307,7 @@
 
 /* Add border to categories */
 .hub-is-home .hub-landing-category-columns .row .col-sm-4 {
-  border: 10px solid transparent;
+  border: 15px solid transparent;
   box-shadow: inset 0px 0px 0px 3px #F2F2F3;
   box-sizing: border-box;
   padding-left: 24px !important;
@@ -315,9 +324,10 @@
 .hub-is-home #hub-landing-page .hub-landing-category-columns .row .col-sm-4 ul li a {
   font-size: 14px !important;
   padding: 6px 0 !important;
-  line-height: 24px;
+  line-height: 1.429em;
   color: #5C656D;
   text-decoration: underline;
+  font-weight: 400;
 }
 
 .hub-is-home footer {
