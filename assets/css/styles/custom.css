@@ -1725,7 +1725,10 @@ p>span.img {
 display:block;
 min-width: 100%;
 text-align: center;
+-webkit-box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
+box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
 }
+
 /*End API Explorer*/
 .markdown-body>img ,
 img {
@@ -1733,8 +1736,6 @@ img {
 	  margin-left: auto;
     margin-right: auto;
     display: block;
-    -webkit-box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
-            box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
 }
 #updated-at.img {
   min-width:0%;
