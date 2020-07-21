@@ -1,7 +1,7 @@
 .sticky-toc a:not(.tocHeader):hover,
 .fixed-toc a:not(.tocHeader):hover{
   background-color: inherit !important;
-  color: var(--text-url-hover) !important;
+  color: var(--sinch-new-purple) !important;
   -webkit-transition: all .1s ease-in;
   transition: all .1s ease-in
 }
@@ -10,7 +10,7 @@
 .fixed-toc:hover a.tocHeader,
 .sticky-toc:hover .icon,
 .sticky-toc:hover a.tocHeader {
-  color: var(--sinch-purple) !important;
+  color: var(--sinch-new-purple) !important;
   -webkit-transition: all .3s ease-in;
   transition: all .3s ease-in
 }
@@ -29,8 +29,9 @@ section#hub-content #content-container section.content-toc .tocHeader {
 }
 
 section#hub-content #content-container section.content-toc a {
-  color: #4c555a;
-  font-size: 14px !important;
+  color: var(--sinch-grey);
+  font-size: 14px;
+  line-height: 1.714em;
 }
 
 .toc-list li.is-active-li > a{
