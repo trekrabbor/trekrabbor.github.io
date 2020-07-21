@@ -707,6 +707,20 @@ footer .row:first-child {
     transition: all .2s ease-in
   }
 
+  p.dwnl-text {
+    color: var(--dwnl-text-color);
+    font-size: 16px;
+    line-height: 1.5em;
+    }
+
+  p.dwnl-info {
+      width: 38%;
+      line-height: 1.5em;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-left: 8em;
+  }
+
   .badge-content:hover {
     -webkit-box-shadow: 0 1px 10px 0 var(--sinch-link-purple);
             box-shadow: 0 1px 10px 0 var(--sinch-link-purple);
