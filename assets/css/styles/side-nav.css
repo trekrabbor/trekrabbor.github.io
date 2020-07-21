@@ -24,11 +24,13 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
 }
 
 nav#hub-sidebar ul a {
-  border: 1px solid var(--side-menu-background);
+  border: 1px solid transparent;
   border-radius: 3px;
   background-color: var(--side-menu-background) !important;
   color: var(--sinch-grey) !important;
   font-weight: 400;
+  width: inherit !important;
+  padding: 10px 16px;
 }
 
 nav#hub-sidebar ul a.active:hover,
@@ -49,18 +51,11 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
 #hub-sidebar-content h3 {
   width: calc(100% - 10px);
   border: 1px solid var(--side-menu-background);
-  padding: 2.5px 9px 2.5px 9px !important;
-  margin-bottom: 0px !important;
+  padding: 5px 9px 5px 9px !important;
   text-transform: capitalize;
   font-size: 14px !important;
   font-weight: 700;
   margin: 8px auto 8px;
-}
-
-#hub-sidebar ul a {
-  border-radius: 3px;
-  margin-left: 10px;
-  width: calc(100% - 20px) !important;
 }
 
 #hub-sidebar-content h3.product-expanded .fa-chevron-down {

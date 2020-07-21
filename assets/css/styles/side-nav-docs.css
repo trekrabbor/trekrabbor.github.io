@@ -1,14 +1,9 @@
 /*Specifically applied in the side nav in the docs section*/
 #hub-sidebar-content > div > ul {
     width: 100%;
-    margin: 0;
+    margin: 0 0 0 -13px;
 }
 
-nav#hub-sidebar ul a {
-    border: 1px solid transparent;
-    border-radius: 3px;
-    width: inherit !important;
-}
 
 nav#hub-sidebar {
     background: var(--side-menu-background) !important;
