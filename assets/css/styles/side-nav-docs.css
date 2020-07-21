@@ -14,3 +14,9 @@ nav#hub-sidebar {
     background: var(--side-menu-background) !important;
     font-size: 14px !important;
 }
+
+@media (min-width: 1010px) {
+    html.csspositionsticky #hub-sidebar-parent {
+      margin-left: 0px!important;
+    }
+  }
