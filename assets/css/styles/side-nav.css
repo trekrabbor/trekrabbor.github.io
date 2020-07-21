@@ -50,6 +50,11 @@ nav#hub-sidebar h3:hover:not(.product-expanded) {
   background: #fff;
 }
 
+#hub-sidebar-content {
+  margin: 48px 0 20px;
+  padding: 0 10px;
+}
+
 #hub-sidebar-content h3 {
   width: calc(100% - 10px);
   border: 1px solid var(--side-menu-background);
