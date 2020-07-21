@@ -15,6 +15,15 @@
   transition: all .3s ease-in
 }
 
+section#hub-content #content-container section.content-toc {
+  padding-left: 22px;
+  padding-right: 0;
+  font-size: 13px;
+  position: absolute;
+  top: 40px;
+  right: -40px;
+}
+
 section#hub-content #content-container section.content-toc .tocHeader {
   font-size: 14px !important;
 }
