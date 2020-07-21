@@ -440,9 +440,9 @@ section#hub-content header h1 {
 
 section#hub-content header {
   padding: 40px 0 20px 15px;
-  margin-left: 31px;
+  margin-left: 15px;
   margin-bottom: -30px;
-  max-width: 73%;
+  max-width: 74%;
   border-bottom: 1px solid transparent;
 }
 
@@ -724,7 +724,7 @@ footer .row:first-child {
     color: var(--dwnl-text-color);
     font-size: 16px;
     line-height: 1.5em;
-    }
+   }
 
   p.dwnl-info {
       width: 38%;
@@ -914,7 +914,7 @@ div.magic-block-html .marked-table {
 }
 
 .hub-container, .container {
-  max-width: 1400px;
+  min-width: 100%;
 }
 
 .marked-table tbody tr:nth-child(2n+1) {
