@@ -10,6 +10,9 @@ nav#hub-sidebar ul.subpages > li > a.subpage.active {
   background: var(--side-menu-background);
 }
 
+#hub-sidebar {
+  font-size: 14px;
+}
 
 #hub-sidebar li {
   background-color: var(--side-menu-background);
@@ -165,10 +168,6 @@ nav#hub-sidebar ul li.subnav-expanded a > .link-title > span {
 
 #hub-sidebar-parent {
   width: 498px;
-}
-
-#hub-sidebar-content {
-
 }
 
 /* SMS Icon */
