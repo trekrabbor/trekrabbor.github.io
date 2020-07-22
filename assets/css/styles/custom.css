@@ -272,13 +272,13 @@ header#hub-header #header-top .hub-container {
 header#hub-header #header-top #header-logo {
   width: 120px;
   height: 50px;
-  margin: 21px 0px 33px 0;
+  margin: 21px 0px 33px 38px;
 }
 
 header#hub-header #header-top .clearfix nav {
   transition: all .2s linear;
-  margin-top: 22px;
   width: 1024px;
+  margin: auto;
 }
 
 .container {
