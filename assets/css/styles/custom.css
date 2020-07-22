@@ -725,13 +725,13 @@ footer .row:first-child {
     transition: all .2s ease-in
   }
 
-  p.dwnl-text {
+  .dwnl-text {
     color: var(--dwnl-text-color);
     font-size: 16px;
     line-height: 1.5em;
    }
 
-  p.dwnl-info {
+  .dwnl-info {
       width: 38%;
       line-height: 1.5em;
       font-size: 16px;
@@ -782,7 +782,7 @@ footer .row:first-child {
 .row.no-gutters {
   margin-top: 18px;
   margin-right: 0;
-  margin-left: 7.65em;
+  margin-left: 25em;
 }
 
 .badge-content {
