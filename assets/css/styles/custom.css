@@ -1156,7 +1156,6 @@ blockquote[class*="custom-callout"] {
   box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
   -webkit-box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
 }
-}
 
 blockquote[class*=info] {
   border-color: transparent;
