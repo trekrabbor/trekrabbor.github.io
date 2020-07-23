@@ -762,9 +762,7 @@ footer .row:first-child {
 }
 
 .dwnl-container h3 {
-  text-align: center;
   font-weight: 700;
-  font-size: 1.07em;
 }
 
 .dwnl-intro {
@@ -808,14 +806,18 @@ footer .row:first-child {
 }
 
 .badge-content h3 {
-  color: var(--sinch-link-purple);
-  font-size: 1.25em
+  color: var(--sinch-grey);
+  font-size: 1.7em;
+  margin-left: 20px;
+  margin-left: 0.75em;
 }
 
 .dwnl-badge-title:before {
-  content: "Download \A";
-  font-size: .9em;
-  white-space: pre
+    content: "Download \A";
+    font-size: 0.6em !important;
+    white-space: pre;
+    color: var(--sinch-new-purple);
+    font-weight: 400;
 }
 
 .badge-content:hover h3 {
@@ -1117,8 +1119,17 @@ section#hub-content #content-container .nextSteps tr:hover a {
   font-size: 1.5em;
 }
 
-blockquote[class*="custom-callout"] p:not(.callout-title) {
-  color: rgba(0, 0, 0, .5) !important;
+.dwnl-alert-title {
+  font-size: 1.15em !important;
+  color: var(--sinch-grey) !important;
+  line-height: 1.5em;
+}
+
+p.dwnl-alert-info {
+  color: #44515D !important;
+  font-weight: 300;
+  line-height: 1.714em;
+  font-size: 1em !important;
 }
 
 blockquote[class*="custom-callout"] {
@@ -1135,8 +1146,16 @@ blockquote[class*="custom-callout"] {
 }
 
 .dwnl-container blockquote[class*="custom-callout"] {
-  margin: inherit;
-  max-width: 800px;
+  border-radius: 8px;
+  max-width: 736px;
+  margin: auto;
+  height: 156px;
+  height: 11.1em;
+  margin-top: 24px;
+  margin-bottom: 80px;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
+  -webkit-box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.15);
+}
 }
 
 blockquote[class*=info] {
