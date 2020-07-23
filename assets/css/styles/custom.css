@@ -763,6 +763,7 @@ footer .row:first-child {
 
 .dwnl-container h3 {
   font-weight: 700;
+  text-align: center;
 }
 
 .dwnl-intro {
@@ -810,6 +811,7 @@ footer .row:first-child {
   font-size: 1.7em;
   margin-left: 20px;
   margin-left: 0.75em;
+  text-align: left;
 }
 
 .dwnl-badge-title:before {
