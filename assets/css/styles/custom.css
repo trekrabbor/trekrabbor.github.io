@@ -799,7 +799,7 @@ img.dwnl-badge-git {
 .dwnl-api-helplib::before {
   content: url(https://trekrabbor.github.io/assets/images/API%20Helper%20Libraries-01.svg);
   position: absolute;
-  margin: -8px 0 0 -88px;
+  margin: -13px 0 0 -100px;
 }
 
 .dwnl-intro {
