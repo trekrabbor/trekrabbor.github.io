@@ -445,7 +445,7 @@ section#hub-content header h1 {
 
 section#hub-content header {
   padding: 40px 0 20px 15px;
-  margin-left: 15px;
+  margin-left: 31px;
   margin-bottom: -30px;
   max-width: 74%;
   border-bottom: 1px solid transparent;
@@ -745,8 +745,14 @@ footer .row:first-child {
     width: 38%;
     line-height: 1.5em;
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     margin-left: 9.85em;
+}
+
+img.dwnl-badge-git {
+  margin-left: 1.8em;
+  position: absolute;
+  bottom: 24px;
 }
 
 .dwnl-container {
@@ -849,7 +855,7 @@ footer .row:first-child {
 
 .dwnl-badge-top .dwnl-badge-git {
   position: absolute;
-  top: 25px;
+  bottom: 25px;
   right: 25px
 }
 
@@ -892,8 +898,14 @@ footer .row:first-child {
   margin-bottom: 10px
 }
 
+.dwnl-img {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: -60px;
+}
+
 .dwnl-badge-info {
-  padding-left: 16px;
+  padding-left: 26px;
   font-size: 0.80em;
   font-weight: 400;
 }
@@ -1125,6 +1137,8 @@ section#hub-content #content-container .nextSteps tr:hover a {
   font-size: 1.15em !important;
   color: var(--sinch-grey) !important;
   line-height: 1.5em;
+  margin-bottom: 11px;
+  margin-top: 10px;
 }
 
 p.dwnl-alert-info {
