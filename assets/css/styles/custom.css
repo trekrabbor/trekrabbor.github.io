@@ -1163,6 +1163,12 @@ section#hub-content #content-container .nextSteps tr:hover a {
   font-size: 1.5em;
 }
 
+.dwnl-alert::before {
+  content: url(https://trekrabbor.github.io/assets/images/Warning%20icon.svg);
+  position: absolute;
+  margin: 0.3em 0 0 1.4em;
+}
+
 .dwnl-alert-title {
   font-size: 1.15em !important;
   color: var(--sinch-grey) !important;
@@ -1186,7 +1192,7 @@ blockquote[class*="custom-callout"] {
 }
 
 .dwnl-container blockquote[class*="custom-callout"] p {
-  padding-left: 31px;
+  padding-left: 116px;
   padding-right: 25px;
   font-size: 0.75em;
 }
