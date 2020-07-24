@@ -1266,6 +1266,10 @@ div.magic-block-html td br {
   color: var(--sinch-grey);
 }
 
+.page-full.ng-scope {
+  background: #f5f5f6;
+}
+
 /*Gitbutton*/
 /*
  * Modified css from main.css to allow for medium sized vector icons
