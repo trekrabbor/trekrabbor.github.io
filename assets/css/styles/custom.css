@@ -700,7 +700,7 @@ footer .row:first-child {
   }
 }
 
-@media (max-width:1023px) {
+@media (max-width:1070px) {
   .dwnl-badge {
     margin-top: 15px;
     width: 100%;
@@ -733,6 +733,10 @@ footer .row:first-child {
     -webkit-transform: scale(1.01) !important;
             transform: scale(1.01) !important
   }
+
+  .dwnl-img{
+    display: none;
+  }
 }
 
 .dwnl-text {
@@ -741,13 +745,14 @@ footer .row:first-child {
   line-height: 1.5em;
  }
 
-.dwnl-info {
-    width: 38%;
-    line-height: 1.5em;
-    font-size: 16px;
-    margin-bottom: 25px;
-    margin-left: 9.85em;
+ .dwnl-info {
+  width: 38%;
+  line-height: 1.5em;
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-left: 9.85em;
 }
+
 
 img.dwnl-badge-git {
   margin-left: 1.8em;
