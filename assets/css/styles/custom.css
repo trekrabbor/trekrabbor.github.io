@@ -784,6 +784,24 @@ img.dwnl-badge-git {
   margin: -8px 0 0 -88px;
 }
 
+.dwnl-voice-video::before {
+  content: url(https://trekrabbor.github.io/assets/images/Voice%20and%20Video-01.svg);
+  position: absolute;
+  margin: -8px 0 0 -88px;
+}
+
+.dwnl-verification::before {
+  content: url(https://trekrabbor.github.io/assets/images/Verification-01.svg);
+  position: absolute;
+  margin: -8px 0 0 -88px;
+}
+
+.dwnl-api-helplib {
+  content: url(https://trekrabbor.github.io/assets/images/API%20Helper%20Libraries-01.svg);
+  position: absolute;
+  margin: -8px 0 0 -88px;
+}
+
 .dwnl-intro {
   width: 38%;
   text-align: center;
