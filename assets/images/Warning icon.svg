@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Warning icon</title>
+    <defs>
+        <circle id="path-1" cx="38" cy="38" r="36"></circle>
+        <path d="M19,10.2758333 L30.9225,30.875 L7.0775,30.875 L19,10.2758333 L19,10.2758333 Z M19,3.95833333 L1.58333333,34.0416667 L36.4166667,34.0416667 L19,3.95833333 Z M20.5833333,26.125 L17.4166667,26.125 L17.4166667,29.2916667 L20.5833333,29.2916667 L20.5833333,26.125 Z M20.5833333,16.625 L17.4166667,16.625 L17.4166667,22.9583333 L20.5833333,22.9583333 L20.5833333,16.625 Z" id="path-3"></path>
+    </defs>
+    <g id="Developers-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SDK-Downloads-Container-layout" transform="translate(-376.000000, -2171.000000)">
+            <g id="card-feature-copy-3" transform="translate(352.000000, 2143.000000)">
+                <g id="Warning-icon" transform="translate(24.000000, 28.000000)">
+                    <g id="icons/sinch/base/Icon_Base">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#B8DDE1" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="icons/sinch/base/Icon_Base_Color" mask="url(#mask-2)" fill-rule="evenodd">
+                            <g transform="translate(-2.000000, -2.000000)" id="Colors/Primary-Colors/Blueberry-Purple/100">
+                                <g>
+                                    <rect id="Blueberry-Purple" fill="#5C068C" x="0" y="0" width="80" height="80"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="icons/material/alert" transform="translate(19.000000, 17.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="icon/action/report_problem_24px" fill-rule="nonzero"></g>
+                        <g id="Colors/Primary-Colors/Honey-Yellow/100" mask="url(#mask-4)" fill="#FFC658" fill-rule="evenodd">
+                            <rect id="Honey-Yellow" x="0" y="0" width="38" height="38"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
