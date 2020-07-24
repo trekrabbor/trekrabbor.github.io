@@ -770,12 +770,18 @@ img.dwnl-badge-git {
   line-height: 1.2em;
   font-weight: 900;
   text-align: center;
-  margin-top: 2.3em;
+  margin: 2.3em 0 1.1em 2.4em;
 }
 
 .dwnl-container h3 {
   font-weight: 700;
   text-align: center;
+}
+
+.dwnl-sms::before {
+  content: url(https://trekrabbor.github.io/assets/images/SMS-01.svg);
+  position: absolute;
+  margin: -8px 0 0 -88px;
 }
 
 .dwnl-intro {
