@@ -861,6 +861,17 @@ img.dwnl-badge-git {
     top: 1.7em;
 }
 
+h3.dwnl-badge-helper-title::before {
+  content: "Download \A";
+  font-size: 0.6em !important;
+  white-space: pre;
+  color: var(--sinch-new-purple);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.714em;
+  top: 1.7em;
+}
+
 .dwnl-card-logo {
   position: absolute;
   top: 25px;
