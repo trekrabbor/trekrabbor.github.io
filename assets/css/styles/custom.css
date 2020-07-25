@@ -872,6 +872,83 @@ h3.dwnl-badge-helper-title::before {
   top: 1.7em;
 }
 
+h3#Java-SDK::after {
+  content: "maven-central \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+h3#PHP-SDK::after {
+  content: "packagist \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+h3#Python-SDK::after {
+  content: "pypi \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+h3#iOS-SDK::after {
+  content: ".tar.bz2 \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+h3#Android-SDK::after {
+  content: ".zip \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+h3#JavaScript-SDK::after {
+  content: ".zip \A";
+  font-size: 0.505em !important;
+  color: var(--sinch-grey);
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  left: 2.2em;
+}
+
+.dwnl-bottom-java .dwnl-bottom-python .dwnl-bottom-javascript .dwnl-bottom-php .dwnl-bottom-iOS .dwnl-bottom-android{
+  font-size: 0.86em !important;
+  color: #5C068C;
+  font-weight: 400;
+  position: absolute;
+  line-height: 1.667em;
+  top: 13.55em;
+  right: 2.2em;
+}
+
+
 .dwnl-card-logo {
   position: absolute;
   top: 25px;
