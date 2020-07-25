@@ -16,12 +16,15 @@
 }
 
 section#hub-content #content-container section.content-toc {
-  padding-left: 22px;
+  padding-left: 0;
   padding-right: 0;
   font-size: 13px;
   position: absolute;
-  top: 40px;
-  right: -40px;
+  top: 0px;
+  right: 0;
+  height: 100%;
+  width: 24%;
+  background: #f5f5f6;
 }
 
 section#hub-content #content-container section.content-toc .tocHeader {
@@ -50,6 +53,7 @@ section#hub-content #content-container section.content-toc a {
 
 section#hub-content #content-container section.content-toc nav {
     margin: none !important;
+    max-width: 290px;
 }
 
 a.toc-link {
@@ -149,7 +153,7 @@ section#hub-content #content-container section.content-toc ul.toc-list>li:first-
     }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1026px) {
     .toc-list {
         display: none;
     }

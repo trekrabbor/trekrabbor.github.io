@@ -176,7 +176,7 @@ section#hub-content header .excerpt p a {
 
 section#hub-content #content-container section.content-body {
   padding-left: 15px;
-  padding-right: 45px;
+  padding-right: 6.5em;
 }
 
 #hub-search input,
@@ -200,6 +200,13 @@ section#hub-content #content-container section.content-body {
     display: none;
   }
 }
+
+@media (max-width: 769px) {
+  #hub-sidebar-parent {
+    display: none!important;
+  }
+}
+
 
 section#hub-content #content-container section.content-body a:hover,
 section#hub-content header .excerpt p a:hover {
@@ -270,6 +277,14 @@ header#hub-header #header-top .hub-container {
     margin-left: 0;
   }
 }
+
+@media (min-width: 1025px) {
+  .grid-75 {
+    float: left;
+    width: 73%;
+  }
+}
+
 
 #hub-landing-top .hub-landing-description {
   max-width: 700px;
@@ -456,10 +471,10 @@ section#hub-content header h1 {
 }
 
 section#hub-content header {
-  padding: 40px 0 20px 15px;
-  margin-left: 31px;
+  padding: 40px 30px 20px 45px;
+  margin-left: 0px;
   margin-bottom: -30px;
-  max-width: 74%;
+  max-width: 70%;
   border-bottom: 1px solid transparent;
 }
 
