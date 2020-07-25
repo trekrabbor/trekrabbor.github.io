@@ -195,6 +195,12 @@ section#hub-content #content-container section.content-body {
   }
 }
 
+@media (max-width: 600px) {
+  .hub-is-home header#hub-header #header-top .clearfix nav {
+    display: none;
+  }
+}
+
 section#hub-content #content-container section.content-body a:hover,
 section#hub-content header .excerpt p a:hover {
   color: var(--text-url-hover);
@@ -355,12 +361,18 @@ header#hub-header #header-top #header-nav-right li>span {
   float: none;
   margin-top: auto;
   margin-bottom: auto;
+  position: absolute;
+  right: 38px;
+  top: 40px;
 }
 
 #header-nav-left {
   display: flex;
   justify-content: center;
   flex: 1;
+  position: static;
+  top: 40px;
+  margin-left: -8.5em;
 }
 
 header#hub-header #header-top #header-nav-right li {
