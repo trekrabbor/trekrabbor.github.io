@@ -1013,6 +1013,7 @@ h3#Android-SDK::after, h3#JavaScript-SDK::after {
   padding-left: 26px;
   font-size: 0.80em;
   font-weight: 400;
+  line-height: 1.5em;
 }
 
 @media (max-width:972px) {
