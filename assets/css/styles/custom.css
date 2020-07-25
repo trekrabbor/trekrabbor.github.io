@@ -850,18 +850,7 @@ img.dwnl-badge-git {
   text-align: left;
 }
 
-.dwnl-badge-title:before {
-    content: "Download \A";
-    font-size: 0.6em !important;
-    white-space: pre;
-    color: var(--sinch-new-purple);
-    font-weight: 400;
-    position: absolute;
-    line-height: 1.714em;
-    top: 1.7em;
-}
-
-h3.dwnl-badge-helper-title::before {
+h3.dwnl-badge-helper-title::before, .dwnl-badge-title:before {
   content: "Download \A";
   font-size: 0.6em !important;
   white-space: pre;
@@ -916,18 +905,7 @@ h3#iOS-SDK::after {
   left: 2.2em;
 }
 
-h3#Android-SDK::after {
-  content: ".zip \A";
-  font-size: 0.505em !important;
-  color: var(--sinch-grey);
-  font-weight: 400;
-  position: absolute;
-  line-height: 1.667em;
-  top: 13.55em;
-  left: 2.2em;
-}
-
-h3#JavaScript-SDK::after {
+h3#Android-SDK::after, h3#JavaScript-SDK::after {
   content: ".zip \A";
   font-size: 0.505em !important;
   color: var(--sinch-grey);
