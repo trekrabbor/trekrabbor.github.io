@@ -938,7 +938,7 @@ h3#JavaScript-SDK::after {
   left: 2.2em;
 }
 
-.dwnl-bottom-java .dwnl-bottom-python .dwnl-bottom-javascript .dwnl-bottom-php .dwnl-bottom-iOS .dwnl-bottom-android{
+.dwnl-bottom-java, .dwnl-bottom-python, .dwnl-bottom-javascript, .dwnl-bottom-php, .dwnl-bottom-iOS, .dwnl-bottom-android{
   font-size: 0.86em !important;
   color: #5C068C;
   font-weight: 400;
