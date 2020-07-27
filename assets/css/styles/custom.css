@@ -195,8 +195,8 @@ section#hub-content #content-container section.content-body {
   }
 }
 
-@media (max-width: 600px) {
-  .hub-is-home header#hub-header #header-top .clearfix nav {
+@media (max-width: 560px) {
+      header#hub-header #header-top .clearfix nav {
     display: none;
   }
 }
