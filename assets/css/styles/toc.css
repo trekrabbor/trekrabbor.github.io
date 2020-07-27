@@ -59,7 +59,6 @@ section#hub-content #content-container section.content-toc a {
 section#hub-content #content-container section.content-toc nav {
     margin: none !important;
     max-width: 290px;
-    position: fixed;
     margin: 48px;
     color: var(--sinch-grey) !important;
 }
