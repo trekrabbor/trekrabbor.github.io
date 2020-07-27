@@ -29,7 +29,7 @@ section#hub-content #content-container section.content-toc {
 
 section#hub-content #content-container section.content-toc .tocHeader {
   font-size: 14px !important;
-  margin-left: -10px;
+  margin-left: -9px;
   line-height: 1.714em;
   margin-bottom: 0px;
   color: var(--sinch-grey) !important;
