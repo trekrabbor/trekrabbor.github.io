@@ -208,7 +208,7 @@ section#hub-content header .excerpt p a {
 
 section#hub-content #content-container section.content-body {
   padding-left: 15px;
-  padding-right: 6.5em;
+  padding-right: 8.5em;
 }
 
 #hub-search input,
@@ -317,7 +317,7 @@ header#hub-header #header-top .hub-container {
 @media (min-width: 1025px) {
   .grid-75 {
     float: left;
-    width: 73%;
+    width: 75%;
   }
 }
 

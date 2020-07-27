@@ -29,12 +29,17 @@ section#hub-content #content-container section.content-toc {
 
 section#hub-content #content-container section.content-toc .tocHeader {
   font-size: 14px !important;
+  margin-left: -10px;
+  line-height: 1.714em;
+  margin-bottom: 0px;
+  color: var(--sinch-grey) !important;
 }
 
 section#hub-content #content-container section.content-toc a {
   color: var(--sinch-grey);
   font-size: 14px;
   line-height: 1.714em;
+  padding: 7px 5px 7px 18px;
 }
 
 .toc-list li.is-active-li > a{
@@ -54,6 +59,9 @@ section#hub-content #content-container section.content-toc a {
 section#hub-content #content-container section.content-toc nav {
     margin: none !important;
     max-width: 290px;
+    position: fixed;
+    margin: 48px;
+    color: var(--sinch-grey) !important;
 }
 
 a.toc-link {
@@ -91,6 +99,10 @@ a.toc-link {
 section#hub-content #content-container section.content-toc ul.toc-list>li:first-child {
   padding-left: inherit;
   pointer-events: inherit;
+}
+
+ul.ng-scope {
+  padding: 0 0 0 10px;
 }
 
 /* .toc-link::before {
