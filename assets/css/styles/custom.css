@@ -1200,7 +1200,7 @@ h3#JavaScript-SDK::after {
   .hub-container #hub-content {
     margin-top: 40px;
   }
-  section#hub-content header, .markdown-body {
+  section#hub-content header {
     margin-right: 5vw!important;
     margin-left: 0vw!important; 
   }
