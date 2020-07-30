@@ -1885,7 +1885,7 @@ div[ng-show*="reference"] .hub-sidebar-category > h3.product-expanded > span {
 }
 
 #api-explorer .hub-reference-left {
-  color: var(--docs-textarea);
+  color: var(--sinch-grey);
 }
 
 #api-explorer .field-description > * {
@@ -1942,7 +1942,7 @@ div[ng-show*="reference"] .hub-sidebar-category > h3.product-expanded > span {
 
 #api-explorer a:not([class*="hub-reference"]):not([class*="hub-lang-switch"]) {
   color: var(--text-url);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 400;
 }
 
@@ -2053,6 +2053,11 @@ div[ng-show*="reference"] .hub-sidebar-category > h3.product-expanded > span {
 
 body.hub-full #hub-sidebar {
   margin-left: 0px !important;
+  width: 70%;
+}
+
+#hub-reference .hub-reference .hub-reference-section .hub-reference-left header {
+  max-width: 100% !important;
 }
 
 .param-type-header > h3 {
